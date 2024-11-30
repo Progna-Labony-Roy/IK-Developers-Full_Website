@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,10 +9,6 @@
     box-sizing: border-box;
 }
 
-
-.container{
-    margin: 20px 5%;
-}
 
 nav{
     display: flex;
@@ -51,9 +51,7 @@ nav ul li a:hover::after{
 
 #header{
     display: flex;
-    margin: 20px 5%;
-    height: 600px;
-    background: wheat;
+    height: 600px
 }
 
 .header-description{
